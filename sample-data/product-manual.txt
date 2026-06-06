@@ -1,0 +1,213 @@
+SAMPLE PRODUCT MANUAL — CLOUDTRACK PRO
+Document ID: MAN-2024-001
+Version: 2.3
+Last Updated: January 2024
+
+IMPORTANT: This is a sample document for demonstration purposes only.
+CloudTrack Pro is a fictional product used to illustrate document Q&A capabilities.
+
+---
+
+1. PRODUCT OVERVIEW
+
+CloudTrack Pro is a cloud-based asset tracking and management platform designed for small to mid-size operations teams.
+It provides real-time visibility into equipment, inventory, and field assets across multiple locations.
+
+Key capabilities:
+- Real-time GPS asset tracking
+- Inventory management and low-stock alerts
+- Scheduled maintenance reminders
+- Multi-user access with role-based permissions
+- Mobile app for iOS and Android
+- Integration with third-party ERP and CMMS systems via REST API
+
+---
+
+2. SYSTEM REQUIREMENTS
+
+2.1 Browser Support
+CloudTrack Pro supports the following browsers:
+- Chrome 110+
+- Firefox 110+
+- Safari 16+
+- Edge 110+
+
+Internet Explorer is not supported.
+
+2.2 Mobile App
+The CloudTrack Pro mobile app requires:
+- iOS 15 or later
+- Android 10 or later
+
+2.3 Network Requirements
+A stable internet connection with at least 5 Mbps is recommended for real-time tracking features.
+Offline mode is available on the mobile app for limited functionality.
+
+---
+
+3. GETTING STARTED
+
+3.1 Account Setup
+1. Navigate to app.cloudtrackpro.com and click "Create Account."
+2. Enter your business email and create a secure password (minimum 12 characters).
+3. Verify your email address via the confirmation link.
+4. Complete the onboarding wizard to configure your organisation name, timezone, and default location.
+
+3.2 Adding Assets
+Assets can be added individually or imported in bulk via CSV upload.
+Each asset record supports:
+- Asset name and ID
+- Category and subcategory
+- Location assignment
+- Assigned owner or team
+- Purchase date and warranty expiry
+- Custom fields
+
+3.3 Inviting Team Members
+Navigate to Settings → Users → Invite User.
+Assign one of the following roles:
+- Admin: full access including billing and user management
+- Manager: access to all operational features, no billing access
+- Operator: read and update access to assigned assets
+- Viewer: read-only access
+
+---
+
+4. ASSET TRACKING
+
+4.1 GPS Tracking
+Assets equipped with a CloudTrack GPS tag report their location every 5 minutes by default.
+Update frequency can be adjusted between 1 and 60 minutes in the asset settings.
+Location history is retained for 90 days on the Standard plan and 365 days on the Enterprise plan.
+
+4.2 Manual Location Updates
+For assets without GPS tags, operators can manually update the location via the mobile app or web interface.
+
+4.3 Geofencing
+Geofences can be defined to trigger alerts when assets enter or exit a specified area.
+Up to 20 geofences are included in the Standard plan. Enterprise plans include unlimited geofences.
+
+---
+
+5. MAINTENANCE MANAGEMENT
+
+5.1 Scheduling Maintenance
+Maintenance tasks can be scheduled by:
+- Date (e.g., every 6 months)
+- Usage (e.g., every 500 operating hours)
+- Condition (manual flag by an operator)
+
+5.2 Notifications
+Email and in-app notifications are sent:
+- 30 days before a scheduled maintenance task
+- 7 days before a scheduled maintenance task
+- On the day of the task
+- If a task is overdue
+
+5.3 Maintenance Records
+All completed maintenance activities are logged with:
+- Date and technician name
+- Work performed
+- Parts replaced
+- Next scheduled date
+
+---
+
+6. INTEGRATIONS
+
+6.1 REST API
+CloudTrack Pro provides a REST API for custom integrations.
+Full API documentation is available at docs.cloudtrackpro.com.
+API keys are generated under Settings → Integrations → API Keys.
+Keep API keys confidential and rotate them regularly.
+
+6.2 Pre-built Integrations
+The following pre-built integrations are available:
+- SAP Business One
+- Xero
+- QuickBooks
+- Salesforce Field Service
+- Microsoft Teams (notifications)
+- Slack (notifications)
+
+6.3 Webhook Support
+Webhooks can be configured to push real-time events to your own systems.
+Supported events include: asset.moved, maintenance.due, asset.alert.
+
+---
+
+7. DATA AND PRIVACY
+
+7.1 Data Storage
+All data is stored in encrypted AWS data centres in the ap-southeast-2 (Sydney) region.
+Data is encrypted in transit (TLS 1.2+) and at rest (AES-256).
+
+7.2 Data Retention
+Account data is retained for 30 days after account closure, then permanently deleted.
+Data export is available via Settings → Data → Export before account closure.
+
+7.3 GDPR and Privacy
+CloudTrack Pro complies with the Australian Privacy Act 1988.
+For enterprise clients in the EU, Data Processing Agreements are available upon request.
+
+---
+
+8. TROUBLESHOOTING
+
+8.1 GPS Tag Not Reporting
+- Ensure the tag is powered on and the LED is flashing green.
+- Check that the tag is within cellular coverage.
+- Confirm the tag is assigned to an active asset in the platform.
+- If the issue persists, contact support for a remote diagnostic.
+
+8.2 Unable to Log In
+- Check that Caps Lock is not enabled.
+- Use the "Forgot Password" link to reset your password.
+- If SSO is enabled, contact your IT administrator.
+
+8.3 Missing Data After Import
+- Verify the CSV format matches the template available at Settings → Import → Download Template.
+- Check the import log for error details at Settings → Import → History.
+
+---
+
+9. SUPPORT
+
+Support is available via:
+- In-app chat: available Monday to Friday, 8am–6pm AEST
+- Email: support@cloudtrackpro.com
+- Phone (Enterprise plans only): 1800 000 000
+
+Response times:
+- Critical issues: within 2 hours
+- Standard issues: within 1 business day
+- General enquiries: within 2 business days
+
+---
+
+10. SUBSCRIPTION PLANS
+
+Standard Plan:
+- Up to 500 assets
+- 5 users
+- 90-day location history
+- Email support
+
+Professional Plan:
+- Up to 2,000 assets
+- 25 users
+- 180-day location history
+- Priority email and chat support
+
+Enterprise Plan:
+- Unlimited assets
+- Unlimited users
+- 365-day location history
+- Dedicated account manager
+- SLA guarantee
+- Custom integrations
+
+---
+
+Document Owner: CloudTrack Pro Product Team
+Next Review: July 2024

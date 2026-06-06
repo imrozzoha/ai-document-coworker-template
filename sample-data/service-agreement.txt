@@ -1,0 +1,120 @@
+SAMPLE SERVICE AGREEMENT
+Document ID: SA-2024-001
+Last Updated: January 2024
+
+IMPORTANT: This is a sample document for demonstration purposes only.
+It does not constitute legal advice or a binding agreement.
+
+---
+
+1. PARTIES
+
+This Service Agreement ("Agreement") is entered into between:
+- Service Provider: Acme Solutions Pty Ltd ("Provider")
+- Client: [Client Name] ("Client")
+
+---
+
+2. SCOPE OF SERVICES
+
+The Provider agrees to deliver the following services:
+- Software development and consulting
+- System integration and API development
+- Ongoing technical support during business hours (9am–5pm AEST)
+- Monthly progress reports and documentation
+
+Services outside this scope require a written amendment to this Agreement.
+
+---
+
+3. PAYMENT TERMS
+
+3.1 Fees
+The Client agrees to pay the agreed project fee as outlined in the attached Statement of Work (SOW).
+
+3.2 Invoicing
+Invoices are issued on the first business day of each month.
+Payment is due within 14 days of the invoice date.
+
+3.3 Late Payments
+Overdue amounts accrue interest at 2% per month from the due date.
+The Provider reserves the right to suspend services for accounts more than 30 days overdue.
+
+---
+
+4. CANCELLATION POLICY
+
+4.1 Cancellation by the Client
+The Client may cancel this Agreement by providing 30 days written notice.
+Cancellation fees apply as follows:
+- Cancellation with more than 30 days notice: No fee.
+- Cancellation with 15–30 days notice: 25% of the remaining contract value.
+- Cancellation with fewer than 15 days notice: 50% of the remaining contract value.
+
+4.2 Cancellation by the Provider
+The Provider may terminate this Agreement with 14 days written notice if:
+- The Client fails to make payment within the agreed terms.
+- The Client materially breaches this Agreement and fails to remedy within 7 days of written notice.
+
+4.3 Immediate Termination
+Either party may terminate immediately for cause, including fraud, gross misconduct, or insolvency.
+
+4.4 Effect of Cancellation
+Upon cancellation:
+- All outstanding invoices become immediately due.
+- Deliverables completed to date remain the property of the Client.
+- Work in progress is returned or transferred as agreed in writing.
+
+---
+
+5. INTELLECTUAL PROPERTY
+
+5.1 Client Ownership
+All deliverables produced specifically for the Client under this Agreement become the Client's property upon full payment.
+
+5.2 Provider Tools and Frameworks
+The Provider retains ownership of any pre-existing tools, frameworks, or libraries used to develop the deliverables.
+The Client is granted a perpetual, royalty-free licence to use these components as part of the deliverables.
+
+---
+
+6. CONFIDENTIALITY
+
+Both parties agree to keep confidential any proprietary or sensitive information shared during the engagement.
+This obligation survives termination of this Agreement for a period of 2 years.
+
+---
+
+7. LIABILITY
+
+7.1 Limitation
+The Provider's total liability under this Agreement is limited to the total fees paid by the Client in the 3 months preceding the claim.
+
+7.2 Exclusions
+The Provider is not liable for indirect, consequential, or incidental losses.
+
+---
+
+8. DISPUTE RESOLUTION
+
+Disputes should first be raised in writing. If unresolved within 14 days, the parties agree to mediation before pursuing legal proceedings.
+This Agreement is governed by the laws of New South Wales, Australia.
+
+---
+
+9. AMENDMENTS
+
+Any changes to this Agreement must be agreed in writing and signed by both parties.
+
+---
+
+10. ENTIRE AGREEMENT
+
+This Agreement, together with any attached SOW, constitutes the entire agreement between the parties.
+
+---
+
+SIGNATURES
+
+Provider: _____________________ Date: ____________
+Client: ______________________ Date: ____________
