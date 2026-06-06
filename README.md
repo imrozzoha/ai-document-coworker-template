@@ -118,7 +118,7 @@ npm run build
 | `OPENAI_API_KEY` | — | Required when `AI_PROVIDER=openai` |
 | `OPENAI_MODEL` | `gpt-4o-mini` | OpenAI model name |
 | `ANTHROPIC_API_KEY` | — | Required when `AI_PROVIDER=claude` |
-| `ANTHROPIC_MODEL` | `claude-haiku-4-5-20251001` | Anthropic model name |
+| `ANTHROPIC_MODEL` | `claude-3-5-haiku-latest` | Anthropic model name |
 
 Copy `.env.example` to `.env.local` and fill in values. Never commit `.env.local`.
 
